@@ -7,7 +7,14 @@ minimum these two fields: `salary` and `effectiveDate`. Each `Compensation` shou
 Create two new REST endpoints to create and read `Compensation` information from the database. These endpoints should 
 persist and fetch `Compensation` data for a specific `Employee` using the persistence layer.
 
-1. Create `Compensation` with attributes salary and effective date
-2. Add `Compensation` attribute + getters and setters 
-
-
+1. Create `Compensation` with attributes salary, effective date, and employeeId
+2. Create Compensation Repository
+   1. findByEmployeeId - returns list
+   2. findByEmployeeIdAndEffectiveDateBefore -returns list
+3. Create endpoints
+   1. Create
+   2. FindAll
+   3. FindMostRecent
+4. Bootstrap example data
+   1. Give John Lennon three compensations across different years
+   2. Give Ringo Starr one compensation

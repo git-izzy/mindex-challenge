@@ -1,0 +1,22 @@
+[
+  {
+    "employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
+    "salary": 75000,
+    "effectiveDate": "2020-01-01"
+  },
+  {
+    "employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
+    "salary": 82000,
+    "effectiveDate": "2021-01-01"
+  },
+  {
+    "employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
+    "salary": 90000,
+    "effectiveDate": "2022-01-01"
+  },
+  {
+    "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f",
+    "salary": 70000,
+    "effectiveDate": "2022-01-01"
+  }
+]
